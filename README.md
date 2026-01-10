@@ -30,4 +30,20 @@
 > *descriptions and summaries of the video to brief the viewer on the video they're about to watch*<br><br>
 >5. Notes
 >
-> *Includes short summaries of given lessons and inspirational quotes from great contributors of physics* <br><br>
+> *Includes short summaries of given lessons and inspirational quotes from great contributors of physics* <br><br><br>
+
+**Further descriptions outline additions in the 3rd Quarter**
+
+> 1. Self-Evaluations
+>
+> *Here you put your own notes and reflections on your own progress* <br><br>
+> 2. Log-in 
+>
+> *Saves your information to customize your experince based off of your personal progress* <br><br>
+> 3. Tests and Examinations
+>
+> *After learning all these things, you may take a test to assess your understanding of the material* <br>
+> *and after answering the exam, depending on your score, you will be given a course of action, whether or not* <br>
+> *to finish the course or to retake it.* 
+
+
