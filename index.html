@@ -2,27 +2,34 @@
 <html>
     <head>
         <style>
-            #LogInPage {
-                border-width: 5px;
-                align-items: center;
-                padding: 30px;
-                max-width: 300px;
+        
+            #InputSpaces {
+                border-width: 10px;
+                display: flex;
+                justify-content: center;
+                padding: 40px;
+                max-width: 400px;
+                border-radius: 10 px;
+            }
+
+            html {
+                font-family: 'Times New Roman', Times, serif;
             }
         </style>
     </head>
     <body>
-        <fieldset id="LogInPage">
-            <forms>
-
+        <forms id="InputSpaces">
+            <fieldset>
                 <label for="Username"></label>
                 <input type="text" placeholder="Enter Username" name="Username" required>
 
-                <br>
+                <br><br>
 
-                <label for="Password"></label>\
+                <label for="Password"></label>
                 <input type="password" placeholder="Enter Password" 
                 name="Password" required>
-            </forms>
-        </fieldset>
+            </fieldset>
+        </forms>
+        
     </body>
 </html>
