@@ -6,20 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Physiform+ Homepage</title>
     <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: 'Arial', 'Helvetica', sans-serif;
-            background: rgb(255, 255, 255);
-            background-image: url(blackboard-inscribed-with-scientific-formulas-calculations.jpg);
             opacity: 0.75;
-            color: rgb(0, 0, 0);
             text-align: center;
             margin: 0;
             background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-     
+
+        .navbar ul {
+			    list-style-type: none;
+			    background-color: rgb(3, 42, 87);
+			    padding: 18px;
+			    margin: 0px;
+			    display: flex;
+			    overflow: hidden;
+                position: relative;
+                top: -300px;
+			}
+			
+			.navbar a {
+			    color: white;
+			    text-decoration: none;
+			    padding: 30px;
+			    text-align: center;
+			}
+
+        .greeting {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            width: 1000px;
+            border: 10px solid white;
+            border-radius: 20px;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        
+        }
+
+        .Welcomeheading {
+            font-size: 48px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
-    m
+    <nav class="navbar">
+        <h1> PhysiForm+ </h1>
+        <ul>
+            <li><a href="Basics.html"> Basics </a></li>
+            <li><a href="Formulas.html"> Formulas </a></li>
+            <li><a href="Videos.html"> Videos </a></li>
+            <li><a href="Notes.html"> Notes </a></li>
+        </ul>
+    </nav>
+
+    <img src="blackboard-inscribed-with-scientific-formulas-calculations.jpg" alt="Background Image" style="width:100%; height:100%; position:absolute; top:0; left:0; z-index:-1; opacity:0.5;">
+    <div class="greeting">
+        <h1 class="Welcomeheading"> Welcome to PhysiForm! </h1> 
+        <br>
+        <p> Here, we will teach you the basics of the rules that govern the universe! We provide formulas, notes, videos and so much more! </p>
+    </div>
 </body>
 </html>
